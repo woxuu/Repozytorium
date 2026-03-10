@@ -61,6 +61,7 @@ w szkole. Możesz się rozejrzeć. Pozdrawiam!</p>
 <section id="right">
 <h3>Tutaj znajdują się różne strony tworzone przeze mnie w celach naukowych.</h3>
 Moje gry: <li><a href="https://dash-survive-run.base44.app">Biegnij i Wygraj</a></li>
+<li><a href="https://balkan-quest-duo.base44.app">Podróż</a></li>
 </section>
 </main>
 <footer>
