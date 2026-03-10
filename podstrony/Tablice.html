@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablice – zadanie</title>
+</head>
+<body>
+
+<h1>Zadanie – tablice i RODO</h1>
+<p>Otwórz konsolę (F12), aby zobaczyć wyniki.</p>
+
+<script>
+    // a) Tablica osób
+    let osoby = [
+        "Jan Nowak",
+        "Kazimierz Zyga",
+        "Stefan Koc",
+        "Ewa Mocek",
+        "Mariusz Abramski"
+    ];
+
+    console.log("Zadanie a):");
+    for (let i = 0; i < osoby.length; i++) {
+        console.log("aaa bbb");
+    }
+
+    // b) Tablica samochodów
+    let samochody = [
+        "Fiat",
+        "Skoda",
+        "Volvo",
+        "Mercedes",
+        "Kia",
+        "Opel",
+        "Citroen"
+    ];
+
+    console.log("Zadanie b):");
+    for (let i = 0; i < samochody.length; i++) {
+        if (i === 1 || i === 2) { // elementy 2 i 3
+            console.log("tajne");
+        } else {
+            console.log(samochody[i]);
+        }
+    }
+</script>
+
+</body>
+</html>

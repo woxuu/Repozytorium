@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona z instrukcjami sterującymi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            text-align: center;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sprawdzanie liczby</h1>
+        <p>Wprowadź liczbę, aby sprawdzić różne operacje:</p>
+        <input type="number" id="numberInput" placeholder="Wpisz liczbę">
+        <button onclick="checkNumber()">Sprawdź</button>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function checkNumber() {
+            let number = parseInt(document.getElementById('numberInput').value);
+            let resultText = "";
+
+
+            if (isNaN(number)) {
+                resultText = "Proszę wprowadzić poprawną liczbę!";
+            } else if (number < 0) {
+                resultText = "Liczba jest mniejsza od zera.";
+            } else {
+                resultText = "Liczba jest dodatnia.";
+            }
+
+            switch (true) {
+                case (number === 0):
+                    resultText += "<br>To jest zero!";
+                    break;
+                case (number % 2 === 0):
+                    resultText += "<br>Liczba jest parzysta.";
+                    break;
+                case (number % 2 !== 0):
+                    resultText += "<br>Liczba jest nieparzysta.";
+                    break;
+            }
+
+            let i = 1;
+            let factorial = 1;
+            while (i <= number) {
+                factorial *= i;
+                i++;
+            }
+            resultText += "<br>Silnia liczby: " + factorial;
+
+            let reverse = "";
+            let num = number;
+            do {
+                reverse = num % 10 + reverse;
+                num = Math.floor(num / 10);
+            } while (num > 0);
+            resultText += "<br>Odwrócona liczba: " + reverse;
+
+            let multiplicationTable = "<br>Tabliczka mnożenia dla " + number + ":<br>";
+            for (let j = 1; j <= 10; j++) {
+                multiplicationTable += number + " x " + j + " = " + (number * j) + "<br>";
+            }
+
+            resultText += multiplicationTable;
+
+            document.getElementById('result').innerHTML = resultText;
+        }
+    </script>
+
+</body>
+</html>

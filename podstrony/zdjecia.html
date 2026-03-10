@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <title>Zdarzenia na zdjęciach</title>
+    <meta charset="utf-8">
+    <style>
+       
+        .thumbnail {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        
+        .big-screen {
+            width: 500px;
+            height: 200px;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        #bigImage {
+            max-width: 100%;
+            max-height: 100%;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+ 
+    <div>
+        <img src="https://frontofficesports.com/wp-content/uploads/2023/03/FOS-23-3.29-West-Ham-London-Stadium.jpg" alt="Zdjęcie 1" class="thumbnail" id="img1">
+        <img src="https://frontofficesports.com/wp-content/uploads/2023/03/FOS-23-3.29-West-Ham-London-Stadium.jpg" class="thumbnail" id="img2">
+        <img src="https://footballtoday.com/wp-content/uploads/2023/06/acf-fiorentina-v-west-ham-united-fc-uefa-europa-conference-league-final-2022-23-3-2048x1365.jpg" class="thumbnail" id="img3" style="display:none; width:2500px; height: 2000px;">
+        <img src="https://frontofficesports.com/wp-content/uploads/2023/03/FOS-23-3.29-West-Ham-London-Stadium.jpg" class="thumbnail" id="img4">
+        <img src="https://onecms-res.cloudinary.com/image/upload/s--CNnKH5oJ--/c_fill,g_auto,h_468,w_830/fl_relative,g_south_east,l_one-cms:core:watermark:reuters,w_0.1/f_auto,q_auto/v1/one-cms/core/2023-05-18t211523z_1_lynxmpej4h0vl_rtroptp_3_soccer-europaconf-aza-whu-report.jpg?itok=rihasFeD" class="thumbnail" id="img5" style="display:none">
+        <img src="https://images.ps-aws.com/c?url=https:%2F%2Fd2x51gyc4ptf2q.cloudfront.net%2Fcontent%2Fuploads%2F2023%2F04%2F20213737%2FWest-Ham-players-celebrate.jpg" class="thumbnail" id="img6" style="display:none">
+    </div>
+
+    
+    <div class="big-screen" id="bigScreen">
+        <img src="" alt="Duże zdjęcie" id="bigImage">
+    </div>
+
+    <script>
+      
+        const img1 = document.getElementById('img1');
+        const img2 = document.getElementById('img2');
+        const img4 = document.getElementById('img4');
+        const bigImage = document.getElementById('bigImage');
+        const bigScreen = document.getElementById('bigScreen');
+        const img3 = document.getElementById('img3');
+;
+        const img5 = document.getElementById('img5');
+        const img6 = document.getElementById('img6');
+
+        
+        function showBigImage(src) {
+            bigImage.src = src;
+            bigImage.style.display = 'block'; 
+        }
+
+       
+        img1.addEventListener('click', function() {
+            showBigImage(img1.src);
+        });
+        img1.addEventListener('click', function() {
+            showBigImage(img5.src);
+        });
+
+        
+        img2.addEventListener('dblclick', function() {
+            showBigImage(img2.src);
+        });
+        img2.addEventListener('dblclick', function() {
+            showBigImage(img6.src);
+        });
+
+        
+        img3.addEventListener('mouseover', function() {
+            showBigImage(img3.src);
+        });
+
+        img4.addEventListener('mouseover', function() {
+            showBigImage(img3.src);
+        });
+
+
+
+        bigScreen.addEventListener('click', function() {
+            bigImage.style.display = 'none';
+        });
+    </script>
+
+</body>
+</html>

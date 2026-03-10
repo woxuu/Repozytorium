@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>DOM – tworzenie i usuwanie elementów</title>
+<style>
+    body { font-family: Arial; padding: 20px; }
+    section { margin-bottom: 40px; }
+    button { margin: 5px 0; }
+    .box { padding: 10px; margin: 5px 0; background: #eee; }
+    .element { padding: 5px; margin: 5px; background: lightblue; }
+</style>
+</head>
+<body>
+
+<h1>DOM – tworzenie i usuwanie elementów</h1>
+
+<!-- ====================== -->
+<section>
+<h2>1. Tworzenie i wstawianie elementów</h2>
+
+<button id="addEl">Dodaj element</button>
+<div id="container" class="box"></div>
+</section>
+
+<!-- ====================== -->
+<section>
+<h2>2. before / after / prepend / append</h2>
+
+<button id="before">Before</button>
+<button id="after">After</button>
+<button id="prepend">Prepend</button>
+<button id="append">Append</button>
+
+<div id="place" class="box">ELEMENT REFERENCYJNY</div>
+</section>
+
+<!-- ====================== -->
+<section>
+<h2>3. Zmiana tekstu</h2>
+
+<p id="textNodeExample"></p>
+<button id="changeText">Zmień tekst</button>
+</section>
+
+<!-- ====================== -->
+<section>
+<h2>4. Wstaw mnie</h2>
+
+<button id="adjacent">Wstaw HTML</button>
+<div id="adjacentTarget" class="box">TARGET</div>
+</section>
+
+<!-- ====================== -->
+<section>
+<h2>5. Klonowanie elementów</h2>
+
+<div id="toClone" class="box">Klonuj mnie</div>
+<button id="cloneBtn">Klonuj</button>
+<div id="cloneTarget"></div>
+</section>
+
+<!-- ====================== -->
+<section>
+<h2>6. Usuwanie elementów</h2>
+
+<button id="addToRemove">Dodaj element</button>
+<button id="removeLast">Usuń ostatni</button>
+<button id="clearAll">Wyczyść wszystko</button>
+
+<div id="removeContainer" class="box"></div>
+</section>
+
+<!-- ====================== -->
+<section>
+<h2>7. Zastępowanie elementów</h2>
+
+<div id="replaceBox">
+    <span id="oldEl">Stary element</span>
+</div>
+<button id="replaceBtn">Zastąp</button>
+</section>
+
+<!-- ====================== -->
+<section>
+<h2>8. Szablon</h2>
+
+<button id="useTemplate">Dodaj szablon</button>
+<div id="templateTarget"></div>
+
+<template id="cardTemplate">
+    <div class="box">
+        <h3 class="title"></h3>
+        <p class="text"></p>
+    </div>
+</template>
+</section>
+
+<script>
+/* ======================
+1. Tworzenie elementów
+====================== */
+let counter = 0;
+const container = document.getElementById("container");
+
+document.getElementById("addEl").addEventListener("click", () => {
+    const el = document.createElement("div");
+    el.classList.add("element");
+    el.innerText = "Element " + ++counter;
+    container.appendChild(el);
+});
+
+/* ======================
+2. before / after / prepend / append
+====================== */
+const place = document.getElementById("place");
+let nr = 0;
+
+document.getElementById("before").onclick = () => {
+    const el = document.createElement("span");
+    el.innerText = "Before " + ++nr + " ";
+    place.before(el);
+};
+
+document.getElementById("after").onclick = () => {
+    const el = document.createElement("span");
+    el.innerText = " After " + ++nr;
+    place.after(el);
+};
+
+document.getElementById("prepend").onclick = () => {
+    const el = document.createElement("span");
+    el.innerText = "Prepend " + ++nr + " ";
+    place.prepend(el);
+};
+
+document.getElementById("append").onclick = () => {
+    const el = document.createElement("span");
+    el.innerText = " Append " + ++nr;
+    place.append(el);
+};
+
+/* ======================
+3. createTextNode
+====================== */
+const p = document.getElementById("textNodeExample");
+
+const word1 = document.createTextNode("Psy");
+const word2 = document.createTextNode("fajne");
+
+p.append(word1, " są ", word2);
+
+document.getElementById("changeText").onclick = () => {
+    word1.textContent = "Koty";
+    word2.textContent = "super";
+};
+
+/* ======================
+4. insertAdjacentHTML
+====================== */
+document.getElementById("adjacent").onclick = () => {
+    const target = document.getElementById("adjacentTarget");
+    target.insertAdjacentHTML("beforeend", "<strong> NOWY HTML </strong>");
+};
+
+/* ======================
+5. Klonowanie
+====================== */
+document.getElementById("cloneBtn").onclick = () => {
+    const el = document.getElementById("toClone");
+    const clone = el.cloneNode(true);
+    document.getElementById("cloneTarget").appendChild(clone);
+};
+
+/* ======================
+6. Usuwanie (POPRAWIONE)
+====================== */
+const removeContainer = document.getElementById("removeContainer");
+let removeCounter = 0;
+
+document.getElementById("addToRemove").onclick = () => {
+    const el = document.createElement("div");
+    el.classList.add("element");
+    el.innerText = "Do usunięcia " + ++removeCounter;
+    removeContainer.appendChild(el);
+};
+
+document.getElementById("removeLast").onclick = () => {
+    if (removeContainer.lastChild) {
+        removeContainer.lastChild.remove();
+    }
+};
+
+document.getElementById("clearAll").onclick = () => {
+    removeContainer.innerHTML = "";
+};
+
+/* ======================
+7. Zastępowanie
+====================== */
+document.getElementById("replaceBtn").onclick = () => {
+    const oldEl = document.getElementById("oldEl");
+    const newEl = document.createElement("strong");
+    newEl.innerText = "Nowy element";
+    oldEl.replaceWith(newEl);
+};
+
+/* ======================
+8. Template
+====================== */
+document.getElementById("useTemplate").onclick = () => {
+    const template = document.getElementById("cardTemplate");
+    const clone = template.content.cloneNode(true);
+
+    clone.querySelector(".title").innerText = "Tytuł z template";
+    clone.querySelector(".text").innerText = "Treść wygenerowana JS";
+
+    document.getElementById("templateTarget").appendChild(clone);
+};
+</script>
+
+</body>
+</html>

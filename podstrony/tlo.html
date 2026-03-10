@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zmiana tła</title>
+    <style>
+       
+        #box {
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <button onclick="zmienTloStrony()">Zmień tło</button>
+
+    
+    <div id="box"></div>
+
+   
+    <button onclick="zmienKolor('red')">Czerwone tło</button>
+    <button onclick="zmienKolor('green')">Zielone tło</button>
+
+    <script>
+       
+        function zmienTloStrony() {
+            document.body.style.backgroundColor = "yellow";
+        }
+
+       
+        function zmienKolor(kolor) {
+            document.getElementById("box").style.backgroundColor = kolor;
+        }
+    </script>
+
+</body>
+</html>

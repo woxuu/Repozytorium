@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona ze zmiennymi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Witaj na mojej stronie!</h1>
+
+    <div class="section">
+        <span class="label">Imię:</span> <span id="name"></span>
+    </div>
+    <div class="section">
+        <span class="label">Wiek:</span> <span id="age"></span>
+    </div>
+    <div class="section">
+        <span class="label">Hobby:</span> <span id="hobby"></span>
+    </div>
+
+    <script>
+        let userName = "czlowiek";
+        let userAge = 15;
+        let userHobby = "Tworzenie gier";
+
+        document.getElementById("name").textContent = userName;
+        document.getElementById("age").textContent = userAge;
+        document.getElementById("hobby").textContent = userHobby;
+    </script>
+</body>
+</html>

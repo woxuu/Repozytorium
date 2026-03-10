@@ -1,0 +1,48 @@
+body{
+	background-color: hsl(0,0%,80%);
+	width:1400px;
+	margin:0 auto;
+	text-align: justify;
+}
+html{
+	background-color: hsl(0,0%,50%);
+}
+*{
+	box-sizing:border-box;
+	font-family:geneva, heveltica, sans-serif;
+}
+header,footer{
+	background-color: hsl(200,80%,70%);
+	padding:10px;
+	text-align:left;
+}
+nav{
+	background-color: hsl(320,80%,70%);
+	padding:1px;
+	text-align:left;
+}
+aside{
+	width: 400px;
+	float:left;
+	padding: 10px
+}
+section{
+	width:1000px;
+	float: left;
+}
+footer{
+	clear:left;
+}
+a{
+	text-decoration:none;
+	font-size:22px;
+	
+}
+nav a{
+	color:lime;
+	padding:10px;
+	display:inline-table;
+}
+nav a:hover{
+background-color:blue;
+}

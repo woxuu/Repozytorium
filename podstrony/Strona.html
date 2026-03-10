@@ -1,0 +1,60 @@
+<?php
+// PHP na górze
+$imie = "Świecie PHP";
+?>
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja strona PHP + JS</title>
+
+    <script>
+        function klik() {
+            alert("To jest JavaScript 🚀");
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #eee;
+            padding: 40px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>
+        <?php echo "Witaj w $imie! 😎"; ?>
+    </h1>
+
+    <p>
+        Aktualna data z PHP:
+        <strong><?php echo date("Y-m-d H:i:s"); ?></strong>
+    </p>
+
+    <button onclick="klik()">Kliknij mnie (JS)</button>
+
+    <hr>
+
+    <form method="post">
+        <input type="text" name="nick" placeholder="Podaj nick">
+        <button type="submit">Wyślij</button>
+    </form>
+
+    <?php
+    if (!empty($_POST["nick"])) {
+        echo "<p>Cześć <b>" . htmlspecialchars($_POST["nick"]) . "</b> 👋</p>";
+    }
+    ?>
+
+</body>
+</html>

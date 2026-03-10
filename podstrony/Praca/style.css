@@ -1,0 +1,57 @@
+html{
+	font-family:Century Gothic, Aripi;
+}
+body{
+	background-color: BlanchedAlmond
+}
+header,footer{
+	background-color: Sienna;
+	color:white;
+	padding:5px;
+	text-align:center;
+	font-size:130%;
+}
+#nav{
+	float:right;
+	width:50%;
+	height:50px;
+}
+#right{
+	float:right;
+	width:50%;
+	height:420px;
+	overflow:auto;
+}
+#left{
+	float:left;
+	background-color: NavajoWhite;
+	margin:10px;
+	padding:20px;
+	width:30%;
+	height:400px;
+	box-shadow: 5px 5px 10px DimGray;
+}
+a:hover{
+	color:#4C1900;
+}
+ul{
+	list-style:none;
+}
+li{
+	display:inline-block;
+	margin:20px;
+}
+button,input{
+	margin-top:20px;
+}
+img{
+	width:10%;
+	float:left;
+}
+footer{
+	clear:both;
+}
+a{
+	color:Sienna;
+	margin:30px;
+}
