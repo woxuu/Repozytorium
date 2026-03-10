@@ -42,7 +42,7 @@ w szkole. Możesz się rozejrzeć. Pozdrawiam!</p>
 <nav>
 
 <ul>
-<li><a href="podstrony/regulamin.html">Doświadczenie</a></li>
+<li><a href="https://stronav2.rf.gd/zamowienie.html">Doświadczenie</a></li>
 <li><a href="podstrony/Elementy.html">Elementy</a></li>
 <li><a href="podstrony/operator.html">Operator</a></li>
 <li><a href="podstrony/instrukcje.html">Instrukcje</a></li>
