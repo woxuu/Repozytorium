@@ -1,0 +1,122 @@
+html{
+	background-color: hsl(0,0%,90%);
+   font-family: sans-serif;
+	text-align: justify;
+}
+body{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: hsl(0,0%,70%);
+}
+h1{
+	border: 4px solid hsl(320,100%,50%);
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	border-radius: 50%;
+	text-shadow: 4px 4px 4px rgb(255,255,255);
+}
+h2{
+	background-color: hsl(0,0%,90%);
+	padding: 5px;
+	box-shadow: 2px 2px 2px rgb(0,0,0);
+}
+p{
+	text-indent: 50px;
+}
+#ramka{
+	border: 6px double hsl(330,80%,40%);
+	width: 800px;
+	margin: 50px auto;
+	position: relative;
+	height: 200px;
+	background-image: url(pies.png);
+	background-position: top;
+	background-repeat: repeat-x;
+	padding-top: 45px;
+}
+.pho{
+	border: 4px dotted hsl(330,80%,40%);
+}
+#photo1{
+	position: absolute;
+	bottom: -20px;
+	right: 320px;
+	opacity: 0.6;
+}
+#photo2{
+	position: absolute;
+	bottom: 10px;
+	right: 180px;
+}
+#photo3{
+	position: absolute;
+	bottom: -30px;
+	right: 70px;
+	z-index:5;
+}
+#photo4{
+	position: absolute;
+	bottom: 15px;
+	right: -50px;
+}
+#wys{
+	border: 2px solid hsl(280,100%,50%);
+	padding: 15px;
+	width: 150px;
+	text-align: right;
+	border-radius: 0 50px 50px 0;
+	background-color: hsla(280,100%,80%,0.4);
+	position: fixed;
+	top:200px;
+	left:-148px;
+	transition:5s;
+}
+#wys:hover{
+	left:-50px;
+	transition:1s;
+	
+}
+/* powtóz pseudo klas*/
+a{
+	text-decoration: none;
+	font-weight:800;
+}
+div#ps a:hover{
+color: white;
+}
+div#ps a:active{
+color: yellow;
+}
+div#ps a:visited{
+color: green;
+}
+/*koniec pse³do klas wysywanuy eemnt*/
+#wys_2{
+	border:3px solid rgb(0,0,255);
+	width: 150px;
+	padding: 10px;
+	position: absolute;
+	top: 300px;
+	right: -145px;
+	border-radius:50px 0 0 50px;
+	transition:1s;
+}
+#wys_2:hover{
+	right: -10px;
+	transition:2s;
+	}
+.ods:visited{
+color: green;
+}
+.ods:hover{ck;
+right: 100
+color: bla0px;
+}
+.ods:link{
+	color:fuchsia;
+}
+.ods:active{
+color: black;
+}

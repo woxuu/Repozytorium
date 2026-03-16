@@ -1,0 +1,12 @@
+*{
+	font-family: Verdana, Geneva;
+}
+html{
+	background-color: #faf0e6;
+	text-align: justify;
+	
+}
+body{
+	width: 1200px;
+	margin: 0 auto;
+}

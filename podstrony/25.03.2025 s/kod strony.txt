@@ -1,0 +1,32 @@
+
+<div > <!-- blok naglowek-->
+    <h1> To jest przykładowa strona</h1>
+</div>
+<div><!-- blok nawigacja-->
+    <p>menu</p>
+	dwa odsyłacze
+</div>
+<div> <!-- blok lewa-->
+orem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus cursus lectus ligula, et congue felis auctor scelerisque. Proin posuere dapibus ante a feugiat. Vestibulum blandit tortor ac nulla consequat, non pharetra nisi tincidunt. Nam non erat ultricies, egestas erat quis, pulvinar odio. Quisque porta iaculis egestas. Fusce quis ante eros. Cras aliquam metus nec semper imperdiet.
+	
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lectus erat, lacinia eget suscipit eget, fringilla rhoncus risus. Donec dui felis, dapibus in hendrerit sit amet, volutpat vitae magna. Suspendisse imperdiet ligula vel quam sodales, id lobortis ipsum malesuada. Duis fermentum sapien vel eros commodo, sed cursus orci laoreet. Vestibulum non nibh ut lectus convallis scelerisque. In nisi tortor, faucibus sit amet nisi vel, congue placerat justo. Proin scelerisque nunc nec lobortis iaculis. Aliquam ante lectus, finibus at erat sed, ullamcorper tempus turpis. Sed eget pellentesque arcu. Duis ut ex id orci efficitur pharetra. Nulla at turpis ut felis luctus molestie nec sit amet est. Donec nec ex arcu. Suspendisse ullamcorper eleifend nisl, non molestie ipsum sollicitudin nec. Nunc velit urna, dapibus vitae odio nec, ultrices eleifend mi.
+
+Proin suscipit a orci nec feugiat. Sed et lobortis nisi. Curabitur sit amet gravida est. Curabitur quam elit, luctus vel ornare vitae, consectetur sit amet erat. Pellentesque eu gravida tellus. Pellentesque aliquet consectetur viverra. Aliquam in porttitor quam. Suspendisse consequat quis lorem at vulputate. Phasellus enim est, commodo sed est ac, lacinia facilisis nulla. Etiam vulputate consectetur erat sed tempus. Donec commodo purus leo, ultricies varius nunc consequat sollicitudin. 
+In dapibus vestibulum molestie. Maecenas at diam dapibus, interdum diam eleifend, ultrices sem. Nulla sed tincidunt est. Proin porta imperdiet vestibulum. Etiam molestie sodales ipsum sed placerat. Quisque quis urna fringilla, faucibus nunc vel, blandit sapien. Donec ut arcu varius, suscipit enim vitae, molestie arcu. Sed vel tristique ligula. Integer consequat id eros ut vulputate.
+
+Mauris finibus quis diam sit amet dapibus. Maecenas cursus nisi id quam pharetra vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean varius erat vel dui gravida feugiat. Fusce posuere accumsan scelerisque. Duis quis nisi sapien. Curabitur libero lectus, varius a mattis non, laoreet non nulla. Aliquam egestas ac nunc in sodales. Aenean in enim sit amet neque suscipit dictum in eget est. Vestibulum felis erat, feugiat id sapien a, efficitur varius sapien. Cras in tortor eget dui tempor porttitor in et massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat non sapien at laoreet. Nam vitae nisi vestibulum, venenatis mi vel, sagittis lacus. Quisque at eleifend turpis. Suspendisse sed finibus eros. Mauris vitae felis nec quam mollis fringilla. Nunc id molestie turpis. Nunc blandit ante ut nunc congue, eget sollicitudin quam aliquam. Duis maximus, ex vel cursus auctor, ante sapien consectetur metus, et convallis nisi tellus vulputate ex.
+
+Proin vestibulum magna viverra justo blandit, sit amet aliquet felis sodales. Donec posuere rhoncus massa, at iaculis sapien sodales in. Ut dictum lectus eget quam pharetra lobortis. Nunc sed dignissim metus. Curabitur diam quam, consectetur sed pretium eu, mattis in orci. Fusce finibus, sapien nec ornare imperdiet, est risus aliquet massa, at lobortis orci ligula id libero. Phasellus ac tempus enim, id semper nunc.
+
+Cras sed nunc mattis, efficitur enim eu, laoreet mi. Ut varius dui ut turpis venenatis volutpat. Praesent et odio eget tellus vehicula feugiat non non est. Suspendisse magna nibh, lobortis nec lacinia vel, faucibus vel nibh. Morbi quam nibh, consequat sed erat non, sodales condimentum mi. Cras commodo ut elit porta congue. Duis accumsan mauris vel odio gravida maximus. Quisque eu tortor non orci sollicitudin scelerisque quis vitae augue. Aenean euismod mattis ipsum. Phasellus ac ipsum vel turpis euismod efficitur. Proin tempor a eros vel euismod.
+
+Pellentesque sagittis posuere purus porta interdum. Aenean et elit id sem pretium vulputate. Maecenas quis pretium enim. Mauris imperdiet efficitur sapien et pharetra. Proin semper sem elit, id venenatis nunc bibendum sagittis. Duis sagittis turpis posuere finibus consequat. Aenean nisi lorem, dictum in egestas a, posuere at mi. Nulla nec sem dui. In quis ultrices erat. Vestibulum euismod maximus erat quis rutrum. Integer convallis dolor dui, porta accumsan odio luctus vel. Suspendisse imperdiet tortor ante, et aliquet felis blandit a. Vivamus nisl urna, dapibus in urna ac, sodales accumsan magna.
+</div>
+<div> <!-- blok  prawa-->
+
+   dwa odsyłacze obrazkowe
+</div>
+<div> <!-- blok  stopka-->
+    <h4>Imie i nazwisko</h4>
+</div>

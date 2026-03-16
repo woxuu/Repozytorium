@@ -1,0 +1,9 @@
+1. Utwórz stronę według podglądu
+2. Szerokość strony 1200px;
+3.Strona składa się z pięciu głównych bloków:
+naglowek, nawigacja, lewa, prawa, stopka 
+4. Lewy panel: Szerokość  900px; wysokość 400px;
+5. Prawy panel: szerokość 300px; wysokość 400px;
+6. Margines wewnętrzny dla wszystkich bloków wchodzących w skład struktury -10px;
+7. Do panelu lewego dodatkowo wstaw punktację według zrzutu z ekranu dołączonego do plików na moodlach
+

@@ -1,0 +1,31 @@
+<h1>  Strona styczeñ 2024</h1>
+        
+<h2> A: Zwiêkszanie indywidualnej skutecznoœci</h2>
+
+<p>Wspania³e produkty, wspomgaj¹ca Ciê firma, poszukiwane przez wszystkich us³ugi. Jak mo¿e Ci siê nie udaæ, kiedy masz to wszystko? Czego tylko brakuje? CIEBIE! Najlepsi wiedz¹, ¿e nie mo¿na wygraæ bez „tego czegoœ”. Dowiedz siê, czego potrzebujesz, aby osi¹gaæ najlepsze wyniki tak profesjonalnie, jak i w sprawach osobistych. 
+</p>
+
+<h2> B: Strategie przedsiêbiorstwa</h2>
+
+<p>Im wiêcej bêdziesz wiedzia³ o swojej firmie, tym lepiej. Kiedy bardziej zrozumiesz sposób dzia³ania przedsiêbiorstwa i poznasz jego pracowników, bêdziesz móg³ z wiêksz¹ swobod¹ i znajomoœci¹ rzeczy wypowiadaæ siê na temat us³ug oferowanych Twoim klientom. Zapoznanie siê z krótko i d³ugoterminow¹ strategi¹ firmy pozwoli Ci lepiej przygotowaæ swoich klientów na przysz³e wydarzenia. Dodatkowo, zaznajomienie siê z rol¹, jak¹ w ca³ej organizacji odgrywaj¹ poszczególne dzia³y, pomo¿e Ci umiejêtnie zmieniaæ kierunek swojej  kariery, przystosowuj¹c siê wraz z firm¹ do ci¹gle zmieniaj¹cego siê rynku zbytu. Podczas tego spotkania omówione zostan¹ najwa¿niejsze sekcje firmy, takie jak:
+</p>
+<p>
+Pracownicy, którzy zapisz¹ siê na dwie spoœród czterech sesji tego spotkania, otrzymaj¹ 1000 punktów Premii Dodatkowej do wykorzystania przy zakupie komputera LapWell.
+</p>
+
+<h2> C: Naszym celem doskona³a dystrybucja</h2>
+
+<div id="ramka">  
+<p>Choæ bardzo siê staramy, to i tak doba trwa tylko 24 godziny. I bez wzglêdu na to,
+jak dobrze ten czas wykorzystujemy, nie umiemy go wyd³u¿yæ. Mo¿emy jednak spojrzeæ 
+na nasz dzieñ pod innym k¹tem. Twórczyni systemu RTM, Dr Dorociak, pomo¿e Ci efektywniej 
+zorganizowaæ dzieñ. Uczestnicy tej sesji otrzymaj¹ za darmo Wykrywacz czasu RTM.
+</p>
+<img src="photo/1.jpg" alt="1" class="pho" id="photo1">
+<img src="photo/2.jpg" alt="2" class="pho" id="photo2">
+<img src="photo/3.jpg" alt="3" class="pho" id="photo3">
+<img src="photo/4.jpg" alt="4" class="pho" id="photo4">
+</div>
+
+</body>
+</html>

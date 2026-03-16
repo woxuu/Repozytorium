@@ -1,0 +1,87 @@
+html{
+	font-family: Helvetica, Geneva, Verdana,  Arial,  sans-serif;
+	background-image: url(paski.gif);
+}
+body{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #d1d1d1;
+}
+h1{
+	padding: 10px;
+	width: 600px;
+	margin: 10px auto;
+	text-align: center;
+	background-color: #e4e4e4;
+	border-radius: 50%;
+	text-shadow: 2px 2px 4px orange;
+	border: 4px solid orange;
+	box-shadow: 4px 4px 4px gray;
+	
+}
+h2{
+	background-color:#e4e4e4 ;
+	padding: 10px;
+	padding-left: 50px;
+	box-shadow: 4px 4px 4px gray;
+}
+div#ramka{
+	border:4px solid orange;
+	height: 200px;
+	box-shadow:inset 4px 4px 4px gray, inset -4px -4px 4px gray;
+	position: relative;
+}
+a{
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 900;
+	color: fuchsia;
+}
+#pusty{
+	border:4px solid orange;
+	box-shadow:4px 4px 4px hsl(0,0%,50%);
+	width:200px;
+	height:200px;
+	background-color: rgba(0,255,255,0.3);
+	position: absolute;
+	}
+	#mikolaj{
+		float: right;
+		position: fixed;
+		right: 100px;
+		opacity: 0.5;
+		right: 1000;
+	}
+	img.obr{
+		border:2px solid rgb(0,255,0);
+		box-shadow:4px 4px 4px hsl(40,100%,50%);
+		border-radius: 0 70% 0 70%;
+	}
+	img#obr1{
+		position: absolute;
+	   left:300px;
+		bottom: 10px;
+		z-index: 200px;
+	}
+		img#obr2{
+		position: absolute;
+	   left:350px;
+		bottom: 50px;
+		z-index: 210px;
+	}
+		img#obr3{
+		position: absolute;
+	   left:650px;
+		bottom: 90px;
+		z-index: 200px;
+	}	
+	img#obr4{
+		position: absolute;
+	   left:600px;
+		bottom: 50px;
+		z-index: 2000px;
+	}
+
+
+
+

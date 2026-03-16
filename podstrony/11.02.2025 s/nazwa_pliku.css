@@ -1,0 +1,59 @@
+html{
+	background-color: hsl(0,0%,90%);
+	font-family: sans-serif;
+}
+body{
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+h1{
+	position: absolute;
+	color: red;
+	text-shadow: 4px 4px 4px black;
+	top: -80px;
+	left: 20px;
+	font-size: 350%;
+}
+#duzy{
+border: 2px solid red;
+background-color: hsl(0,0%,65%);
+height: 440px;
+padding: 10px;
+position: relative;
+width: 1500px;
+letter-spacing: 2px;
+word-spacing: 5px;
+padding-right: 70px;
+
+}
+#historia{
+ border: 2px solid red;
+ background-color: hsla(0,0%,90%,0.5);
+ width: 150px;
+ height: 150px;
+ position: absolute;
+ right: -90px;
+ top: 40px;
+ color: red;
+}
+#mniejszy{
+	border: 5px dotted red;
+	background-color: hsl(0,0%,90%);
+	position: absolute;
+   right: -120px;
+   top: 370px;
+	width:1000px;
+	padding: 10px;
+}
+#miasto{
+	border: 2px solid red;
+ background-color: hsla(0,0%,90%,0.5);
+ width: 150px;
+ height: 150px;
+ position: absolute;
+ right: -90px;
+ top: 200px;
+ color: red;
+}
